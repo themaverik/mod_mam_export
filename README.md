@@ -2,12 +2,6 @@
 
   Export MAM (XEP-0313) archive messages from internal mnesia DB to MySQL DB
 
-Author: Lamtei W <lamteiwahlang@gmail.com>
-  
-Licensed: Ejabberd licensing terms (GPL 2)
-  
-Requires: ejabberd 17.04 or newer.
-	
 Description
 -----------
 	
