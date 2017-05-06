@@ -1,4 +1,5 @@
 author: "Lamtei W"
 category: "database"
-summary: "Export MAM archive messages from internal mnesia DB to MySQL DB."
-url: ""
+summary: "Export MAM archive preferences and messages from internal mnesia DB to MySQL DB."
+url: "https://github.com/themaverik/mod_mam_export.git"
+home: "https://github.com/themaverik/mod_mam_export.git"
