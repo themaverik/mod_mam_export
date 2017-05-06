@@ -26,6 +26,7 @@ Ejabberd Command
 You can execute the command using ejabberdctl:
 ```yml
 export_mam_archive host
+export_mam_archive_prefs host
 ```
 Parameters:
 	host - Your server host
