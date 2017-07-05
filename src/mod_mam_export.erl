@@ -86,18 +86,17 @@ export_mam_archive(_Host) ->
     mnesia:activity(sync_dirty,
 		fun () ->
 			mnesia:foldl(fun (#archive_msg{us =
-				   {_LUser, LServer},
+				   {LUser, LServer},
 				   id = ID,
 				   timestamp = TS,
 				   peer = LPeer,
-				   bare_peer = {PUser, PServer, <<>>},
 				   type = Type,
 				   nick = Nick,
 				   packet = Pkt},
 				Acc) ->
 				Acc,
 				mysql_store_archive(Pkt, LServer,
-					 {PUser, PServer},
+					 {LUser, LServer},
 					 ID, TS, Type,
 					 LPeer, Nick)
 			 end,
