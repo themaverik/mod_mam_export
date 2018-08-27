@@ -32,3 +32,5 @@ Parameters:
 	host - Your server host
 
 You can check the logs for the list of messages being inserted.
+
+Note: This module has been merged with ejabberd community version.
